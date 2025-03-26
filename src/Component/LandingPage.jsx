@@ -4,7 +4,8 @@ import { IoIosArrowForward } from "react-icons/io";
 import { BlurFade } from "../components/magicui/blur-fade";
 import Card from './Card';
 import Graph from './Graph'
-import { Button } from '@/components/ui/Button';
+import { Button } from "@/components/ui/button"
+
 import {AuroraText} from  '../components/magicui/aurora-text'
 
 

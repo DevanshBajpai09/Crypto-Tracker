@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
-import { Button } from "../components/ui/Button";
+import { Button } from "@/components/ui/button"
+
 import { useNavigate } from "react-router-dom";
 
 const DashboardNavbar = ({ onSearch }) => {
