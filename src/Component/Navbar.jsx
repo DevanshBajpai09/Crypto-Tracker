@@ -17,6 +17,7 @@ const Navbar = () => {
 //   };
 
   return (
+    
 
   
     <div className="flex items-center justify-between py-3 px-10">
@@ -24,7 +25,7 @@ const Navbar = () => {
     <Button  className="flex items-center gap-1">
     <a href="/singup">
       <h3 className="text-3xl font-semibold">
-        Interview<span className="text-blue-500">Marshal</span>
+        Crypto<span className="text-blue-500">Predicition</span>
       </h3>
     </a>
     </Button>

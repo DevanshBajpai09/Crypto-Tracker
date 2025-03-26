@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { BlurFade } from '@/components/magicui/blur-fade';
 
 const cards = [
   {
@@ -12,20 +13,20 @@ const cards = [
     description: "Stay updated with Ethereum price changes, trends, and analytics.",
   },
   {
-    title: "Portfolio Manager",
-    description: "Manage and track your crypto portfolio with ease and precision.",
+    title: "DodgeCoin Tracker",
+    description: "Simplify crypto portfolio management",
   },
   {
-    title: "Portfolio Manager",
-    description: "Manage and track your crypto portfolio with ease and precision.",
+    title: "Solana Tracker",
+    description: "Effortless Solana portfolio tracking.",
   },
   {
-    title: "Portfolio Manager",
-    description: "Manage and track your crypto portfolio with ease and precision.",
+    title: "USDC Tracker",
+    description: "A stablecoin pegged to the US dollar for seamless transactions.",
   },
   {
-    title: "Portfolio Manager",
-    description: "Manage and track your crypto portfolio with ease and precision.",
+    title: "Hyperliquid Tacker",
+    description: " A decentralized exchange for high-speed futures trading",
   },
   
 ];
@@ -36,14 +37,17 @@ const CryptoCards = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       {/* Header */}
+      <BlurFade delay={0.55} inView>
       <div className="text-center mb-12">
-        <p className="text-7xl font-extrabold text-black mb-5">Crypto Work</p>
+        <p className="text-7xl font-extrabold text-black mb-5">Crypto Portfolio</p>
         <p className="text-xl text-gray-700">
           Track crypto prices, trends, and portfolios in real-time with a reliable crypto tracker.
         </p>
       </div>
+      </BlurFade>
 
       {/* Grid Section */}
+      <BlurFade delay={0.67} inView>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {cards.map((card, index) => (
           <motion.div
@@ -60,7 +64,7 @@ const CryptoCards = () => {
             <motion.a
               href="#"
               className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300"
-              whileHover={{ scale: 1.1 }}
+              whileHover={{ scale: 1.0 }}
             >
               Explore
               <svg className="w-4 h-4 ml-2" viewBox="0 0 14 10" fill="none">
@@ -79,6 +83,7 @@ const CryptoCards = () => {
           </motion.div>
         ))}
       </div>
+      </BlurFade>
     </div>
   );
 };

@@ -35,11 +35,11 @@ export function LoginForm() {
   
   return (
     <>
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-7">
       <Card className="border-none shadow-2xl">
         <CardHeader className="text-center">
-          <CardTitle className="text-xl font-bold">Welcome Again to <span className="bg-green-500 text-white font-bold">Crypto</span></CardTitle>
-          <CardDescription className="text-md">
+          <CardTitle className="text-xl font-bold mt-4">Welcome Again</CardTitle>
+          <CardDescription className="text-xs">
             Login to your Account
           </CardDescription>
         </CardHeader>
