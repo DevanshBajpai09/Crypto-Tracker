@@ -3,7 +3,7 @@
 import React from 'react'
 
 import { IoIosArrowForward } from "react-icons/io";
-import { Button } from  "../components/ui/Button";
+
 
 
 const Navbar = () => {
