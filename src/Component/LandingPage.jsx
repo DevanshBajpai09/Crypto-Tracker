@@ -5,7 +5,7 @@ import { BlurFade } from "../components/magicui/blur-fade";
 import Card from './Card';
 import Graph from './Graph'
 import { Button } from "@/components/ui/button"
-
+import logo from '../assets/crypto.png'
 import {AuroraText} from  '../components/magicui/aurora-text'
 
 
@@ -101,7 +101,7 @@ const LandingPage = () => {
               </defs>
             </svg>
             <img
-  src="../../public/crypto.png"
+  src={logo}
   alt="Hero image"
   className="relative w-[1200px] h-[1300px] mx-auto  rounded-lg lg:rounded-2xl shadow-2xl"
 />
