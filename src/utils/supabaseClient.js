@@ -13,7 +13,7 @@ export const Signup = async (email, password,username) => {
        
     });
 
-    const {data:userData , error:userError} = await supabase.from('crypto').insert([{email:email,username:username}]).select().single()
+    const {data:userData , error:userError} = await supabase.from('crypto').insert([{email:email,username:username}])
 
     if (userError) {
         console.error("Error inserting user into database:", userError.message);
