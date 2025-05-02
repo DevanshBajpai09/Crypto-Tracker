@@ -1,8 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
-
 import Footer from './Component/Footer'
-
 import LandingPage from './Component/LandingPage'
 import Navbar from './Component/Navbar'
 import LoginPage from "./Login/login";
@@ -26,10 +24,10 @@ function App() {
         </> }/>
       {/* Navigation Menu */}
         
-        <Route path="/Component/SignupForm" element={<SignupPage />} />
-        <Route path="/Component/LoginForm" element={<LoginPage />} />
+        <Route path="/signup" element={<SignupPage />} />
+        <Route path="/login" element={<LoginPage />} />
         <Route element={<ProtectRoute />}>
-        <Route path="/Component/Dashboard" element={<Dashboard />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         </Route>
         
     

@@ -28,7 +28,7 @@ const Navbar = () => {
 
 
   
-      <Button href="/auth/signup" className="bg-black text-white rounded-none px-4 py-2 ml-2">
+      <Button href="/signup" className="bg-black text-white rounded-none px-4 py-2 ml-2">
         Get Started <IoIosArrowForward />
       </Button>
  

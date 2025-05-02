@@ -40,7 +40,7 @@ const LandingPage = () => {
             </p>
 
             <div className="mt-7 mb-12">
-              <a href="/Component/SignupForm">
+              <a href="/signup">
                 <Button className="bg-black text-white font-bold cursor-pointer rounded-none h-10 w-50 border-b shadow-2xl ">Get Unlimted Access<IoIosArrowForward /></Button>
               </a>
             </div>
